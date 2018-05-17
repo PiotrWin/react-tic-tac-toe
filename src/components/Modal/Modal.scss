@@ -1,0 +1,44 @@
+.Modal {
+  width: 521px;
+  height: 521px;
+  background-color: white;
+  z-index: 2000;
+  position: absolute;
+  margin: auto;
+  left: 0;
+  right: 0;
+  top: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: column;
+  font-size: 30px;
+  font-weight: bold;
+  color: #1a237e;
+  border-radius: 10px;
+  button {
+    margin: 25px;
+    margin-top: 40px;
+    width: 100px;
+    height: 45px;
+    color: #1a237e;
+    background-color: white;
+    border-radius: 10px;
+    border: 1px solid #1a237e;
+    box-shadow: 0px 0px 3px 1px #1a237e;
+    font-weight: bold;
+    font-size: 20px;
+    cursor: pointer;
+    &:active {
+      box-shadow: none;
+      transform: translateY(2px);
+    }
+    &:focus {
+      outline: none;
+    }
+    &:hover {
+      background-color: #a8b5ff;
+      color: #3f51b5;
+    }
+  }
+}

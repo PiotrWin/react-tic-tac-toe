@@ -1,0 +1,36 @@
+.ResetButton {
+  margin: 25px;
+  width: 125px;
+  height: 45px;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 10px;
+  border: 1px solid white;
+  background-color: #3f51b5;
+  box-shadow: 0px 0px 3px 1px white;
+  color: white;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;;
+  cursor: pointer;
+  &:active {
+    box-shadow: none;
+    transform: translateY(2px);
+  }
+  &:focus {
+    outline: none;
+  }
+  &:hover {
+    background-color: #a8b5ff;
+    color: #3f51b5;
+  }
+}
+
+.Shown { 
+  display: inline;
+}
+
+.Hidden {
+  display: none;
+}
